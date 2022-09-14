@@ -1,2 +1,2 @@
 # mycofactocin
-Mycofactocin-like cluster analysis 
+Mycofactocin-like clusters analysis 
