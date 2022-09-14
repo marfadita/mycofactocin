@@ -1,0 +1,700 @@
+LOCUS       NZ_PQSS01000004        14547 bp    DNA     linear   CON 20-AUG-2022
+DEFINITION  Streptomyces sp. Ru71 contig00004, whole genome shotgun sequence.
+ACCESSION   NZ_PQSS01000004
+VERSION     NZ_PQSS01000004.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Streptomyces sp. Ru71
+  ORGANISM  Streptomyces sp. Ru71
+            Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+            Streptomyces.
+REFERENCE   1  (bases 1 to 203499)
+  AUTHORS   Suneja,G. and Sharma,R.
+  TITLE     Genome sequencing of cellulose degrading bacteria
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 203499)
+  AUTHORS   Suneja,G. and Sharma,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-FEB-2018) Energy and Environmental Biotechnology,
+            Institute of Genomics and Integrative Biology, Sukhdev Vihar,
+            Mathura Road, Delhi, Delhi 110025, India
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method                   :: Newbler v. 2.9
+            Genome Representation             :: Full
+            Expected Final Version            :: Yes
+            Genome Coverage                   :: 10x
+            Sequencing Technology             :: 454 and Illumina
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 08/20/2022 06:46:46
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.2
+            Features Annotated :: Gene; CDS; rRNA; tRNA; ncRNA; repeat_region
+            Genes (total)                     :: 7,581
+            CDSs (total)                      :: 7,504
+            Genes (coding)                    :: 7,195
+            CDSs (with protein)               :: 7,195
+            Genes (RNA)                       :: 77
+            rRNAs                             :: 1, 1, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 1, 1, 1 (5S, 16S, 23S)
+            tRNAs                             :: 71
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 309
+            CDSs (without protein)            :: 309
+            Pseudo Genes (ambiguous residues) :: 0 of 309
+            Pseudo Genes (frameshifted)       :: 122 of 309
+            Pseudo Genes (incomplete)         :: 208 of 309
+            Pseudo Genes (internal stop)      :: 12 of 309
+            Pseudo Genes (multiple problems)  :: 30 of 309
+            CRISPR Arrays                     :: 3
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            PQSS01000004.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+FEATURES             Location/Qualifiers
+     gene            complement(<1..303)
+                     /locus_tag="C3489_RS03730"
+                     /old_locus_tag="C3489_03730"
+                     /pseudo=""
+     CDS             complement(<1..303)
+                     /locus_tag="C3489_RS03730"
+                     /old_locus_tag="C3489_03730"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014671053.1"
+                     /note="incomplete; too short partial abutting assembly gap;
+                     missing C-terminus; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo=""
+                     /codon_start=1
+                     /transl_table=11
+                     /product="acetyl-coenzyme A synthetase"
+     gene            complement(419..1897)
+                     /gene="mftF"
+                     /locus_tag="C3489_RS03735"
+                     /old_locus_tag="C3489_03735"
+     CDS             complement(419..1897)
+                     /gene="mftF"
+                     /locus_tag="C3489_RS03735"
+                     /old_locus_tag="C3489_03735"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014671054.1"
+                     /GO_process="GO:0140604 - mycofactocin biosynthetic process
+                     [Evidence IEA]"
+                     /note="Members of this protein family, MftF, are
+                     glycosyltransferases, members of PF00535 (glycosyl
+                     transferase family 2). The encoding gene is found as part
+                     of the mycofactocin cassette, in Mycobacterium
+                     tuberculosis, many other Actinobacteria, and occasional
+                     members of other lineages. Mycofactocin itself, a putative
+                     redox carrier, is a heavily modified derivative of the
+                     C-terminal Val-Tyr dipeptide of the mycofactocin precursor
+                     MftA (TIGR03969); Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mycofactocin biosynthesis glycosyltransferase
+                     MftF"
+                     /protein_id="WP_103779825.1"
+                     /translation="MTLVRPRPLGARLPSPSDTTLPHGFTVELAPGTHRSRDGRLMVGG
+                     SPLRLVRLTDAAVRRLGDGRFTVTDATSAALARRLLDAGLVHPRPAPVPAGDTTVVVPV
+                     RDRAARLDDLLAALRADPATAHLPVLVVDDGSRDPAALAEVARRHGARLLTHPHNRGPA
+                     AARNTGLRHARTPYVAFCDSDVVPEPGWLAPLLAQFADPALALAAPRVVALPVPDPGLL
+                     DRYEELRSPLDMGVAEGPVVPVSALSYVPSATIVVRRAALGPGFDETLRVAEDVDLCIR
+                     LHEAGWRLRYVPAARVGHRHRTDLRSWLAQRAGYGTGAADLALRHPDRVPPLYAAPWSL
+                     AACALLARGRPAPVALAAALTGLTALRVARRMPDADHPARAGALLALAALRGTAEQLLR
+                     CATRHHWPVALAAAAVNRRARHVLIAAAVVEGLVDHRRSGTSLSPPAYTVLRRLDDLAY
+                     GWGVWQGAVRRGTAAPLKPRLALRVVSRWTAARP"
+     gene            complement(1894..2679)
+                     /locus_tag="C3489_RS03740"
+                     /old_locus_tag="C3489_03740"
+     CDS             complement(1894..2679)
+                     /locus_tag="C3489_RS03740"
+                     /old_locus_tag="C3489_03740"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014671055.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mycofactocin-coupled SDR family oxidoreductase"
+                     /protein_id="WP_103779827.1"
+                     /translation="MTGPRVAVVTGAARGIGAATVRRLAREGWAVVAVDRCEDDPEVPY
+                     PLAAPEQLRALGREFPLVRTVKADVRDPAALRAAVQVAERELGGLDAAVAAAAVMLGGG
+                     PVWEQTDAQWRTLLEVDVLGVAHLARAAVPALLRRPQPRTGRFVALASAAAHRGLWGLG
+                     AYCAAKHAVVGLVRGLARDLRDTGVNALAVSPGSTRTDMLRATADLYELPEVDKLAEQQ
+                     LTGRPLEPEEVAAVVAWACSADSFAVTGSVLHADGGFTA"
+     gene            complement(2676..3464)
+                     /gene="mftE"
+                     /locus_tag="C3489_RS03745"
+                     /old_locus_tag="C3489_03745"
+     CDS             complement(2676..3464)
+                     /gene="mftE"
+                     /locus_tag="C3489_RS03745"
+                     /old_locus_tag="C3489_03745"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014671056.1"
+                     /GO_process="GO:0140604 - mycofactocin biosynthetic process
+                     [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mycofactocin biosynthesis peptidyl-dipeptidase
+                     MftE"
+                     /protein_id="WP_103779829.1"
+                     /translation="MPAEPAPATPPGPATRLADLAWPDLTDRGPLVLLPLGSCEQHGPH
+                     LPLDTDTAVATAVAGRAAGRLRGEVDVLVAPAQPYGASGEHEGFPGTVSAGHDALRLLV
+                     TEIGRSMLRWAGRLLVVNGHGGNLVSLADAVTGLRGESRDVAWWPCLPPGSDAHAGRAE
+                     TSMMLRLRRAAVQGERAVAGPTEPVEVLMDRLVTESVRGVSPSGVLGDPAGARAGEGER
+                     LLDVMADRLAADIRAWRVSGRGRLGRSERRPALAPVGARR"
+     gene            complement(3466..4638)
+                     /gene="mftD"
+                     /locus_tag="C3489_RS03750"
+                     /old_locus_tag="C3489_03750"
+     CDS             complement(3466..4638)
+                     /gene="mftD"
+                     /locus_tag="C3489_RS03750"
+                     /old_locus_tag="C3489_03750"
+                     /EC_number="1.4.3.26"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014671057.1"
+                     /GO_process="GO:0140604 - mycofactocin biosynthetic process
+                     [Evidence IEA]"
+                     /note="MftD, an enzyme found in the mycofactocin
+                     biosynthesis locus, performs an oxidative deamination of
+                     3-amino-5-[(p-hydroxyphenyl)methyl]-4,
+                     4-dimethyl-2-pyrrolidinone (AHDP). The resulting compound,
+                     now called pre-mycofactocin (PMFT), is a biologically
+                     active redox cofactor that can oxidize the non-exchangeable
+                     NADH of TIGR03971 family SDR-type oxidoreductases.; MftD,
+                     an enzyme found in the mycofactocin biosynthesis locus,
+                     performs an oxidative deamination of
+                     3-amino-5-[(p-hydroxyphenyl)methyl]-4,
+                     4-dimethyl-2-pyrrolidinone (AHDP). The resulting compound,
+                     now called pre-mycofactocin (PMFT), is a biologically
+                     active redox cofactor that can oxidize the non-exchangeable
+                     NADH of TIGR03971 family SDR-type oxidoreductases; Derived
+                     by automated computational analysis using gene prediction
+                     method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mycofactocin biosynthesis FMN-dependent deaminase
+                     MftD"
+                     /protein_id="WP_103779831.1"
+                     /translation="MSGWFETVAEAQRRAGKRLPKSVYSALLAGSEKGTSYDDNTAAFA
+                     ELGFAPHVAGLSAKRDQSTTVLGEQISLPVIISPTGVQAVHPDGEVAVARAAAARGTAM
+                     GLSSFASKPLKDVVAANPQTFFQMYWMGSKDAMLQRIEHAYTYGAKALIVTLDWSFSHG
+                     RDWGSPKIPERLDLKAMARFAPEAVRRPRWLLDFVKSGRLPDLTAPNLADPGGDAPTFF
+                     GAYGEWMQTPPPSWDDVRWLREQWDGPFLLKGICRVDDALRAVDAGVSAISVSNHGGNN
+                     LDSTPAPIRALPAVADAVGGQVEVLLDSGVRRGSDVVKALALGAKAVMIGRAYLWGLAA
+                     GGQSGVENVLDILRGGIDSALLGLGRSSVHELSRDDLVIPPGFTRTLGAV"
+     gene            complement(4652..5875)
+                     /gene="mftC"
+                     /locus_tag="C3489_RS03755"
+                     /old_locus_tag="C3489_03755"
+     CDS             complement(4652..5875)
+                     /gene="mftC"
+                     /locus_tag="C3489_RS03755"
+                     /old_locus_tag="C3489_03755"
+                     /EC_number="1.3.98.7"
+                     /EC_number="4.1.99.26"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014671058.1"
+                     /GO_function="GO:0051539 - 4 iron, 4 sulfur cluster binding
+                     [Evidence IEA]"
+                     /GO_process="GO:0140604 - mycofactocin biosynthetic process
+                     [Evidence IEA]; GO:0031179 - peptide modification [Evidence
+                     IEA]"
+                     /note="MftC is a radical SAM/SPASM enzyme that catalyzes
+                     the first two steps in biosynthesis of the electron carrier
+                     mycofactocin from the terminal Val-Tyr dipeptide of the
+                     precursor peptide MftA.; MftC is a radical SAM/SPASM enzyme
+                     that catalyzes the first two steps in biosynthesis of the
+                     electron carrier mycofactocin from the terminal Val-Tyr
+                     dipeptide of the precursor peptide MftA; Derived by
+                     automated computational analysis using gene prediction
+                     method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mycofactocin radical SAM maturase"
+                     /protein_id="WP_103779833.1"
+                     /translation="MTTLHDPPPTERVPALVEQFKGGLHAPICLTWEWTYACNLSCAHC
+                     LSSSGRRDPLELSTDEIKSVIDELQRMQVFYVNVGGGEPTVRPDFWELLDYAIAHQVGV
+                     KFSTNGLRLTPERARRLAATDYVDVQISLDGATREVNDAVRGPGSYDMAIRAMENLAEA
+                     GFRDFKISVVMTRQNVSQLDDFAAIADRYGAQLRITRLRPSGRGADVWDDLHPTAEQQY
+                     AIYSWLLGHGERVLTGDSFFHLNALGSEPIPGLNLCGAGRVVCLIDPVGDVYACPFAIH
+                     DAFKAGNVRSPGGFDRVWRESALFAELRRPSTGGACSGCPAYDTCQGGCMAAKFFTGLP
+                     LDGPDPECVKGHGAAALSAVDPGALPRQGKDHSHRTVALGMPALRTGRPDRLCDESPLA
+                     GLPTNTCS"
+     gene            complement(5875..6165)
+                     /gene="mftB"
+                     /locus_tag="C3489_RS03760"
+                     /old_locus_tag="C3489_03760"
+     CDS             complement(5875..6165)
+                     /gene="mftB"
+                     /locus_tag="C3489_RS03760"
+                     /old_locus_tag="C3489_03760"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014671059.1"
+                     /GO_process="GO:0140604 - mycofactocin biosynthetic process
+                     [Evidence IEA]"
+                     /note="MftB, a small protein, is a peptide chaperone that
+                     assists the radical SAM enzyme MftC in performing two
+                     modifications to the C-terminal Val-Tyr dipeptide of the
+                     mycofactocin precursor peptide, MftA. MftB's role is
+                     analogous to the role of PqqD in the biosynthesis of PQQ, a
+                     cofactor that derives entirely from a Tyr and a Glu in the
+                     precursor PqqA; Derived by automated computational analysis
+                     using gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mycofactocin biosynthesis chaperone MftB"
+                     /protein_id="WP_103779834.1"
+                     /translation="MTSPAFDAARPYRLNPSVALRPEPFGALAYHFGNRRLSFLKAPEL
+                     VELVQELGRHPSVGVALAGVPDARRGAFLRALASLAAADMIIPQRSGTGAR"
+     gene            complement(6175..6288)
+                     /gene="mftA"
+                     /locus_tag="C3489_RS03765"
+                     /old_locus_tag="C3489_03765"
+     CDS             complement(6175..6288)
+                     /gene="mftA"
+                     /locus_tag="C3489_RS03765"
+                     /old_locus_tag="C3489_03765"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014671060.1"
+                     /GO_function="GO:0009055 - electron transfer activity
+                     [Evidence IEA]"
+                     /GO_process="GO:0140604 - mycofactocin biosynthetic process
+                     [Evidence IEA]"
+                     /note="Mycofactocin is a small molecule electron carrier
+                     derived from the final two amino acids, Val-Tyr, of MftA,
+                     the mycofactocin precursor. It plays a role in redox
+                     homeostasis and the metabolism of alcohols and aldehydes in
+                     Actinobacteria, including Mycobacterium tuberculosis;
+                     Derived by automated computational analysis using gene
+                     prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mycofactocin precursor MftA"
+                     /protein_id="WP_103779836.1"
+                     /translation="MFEEQIKAEQDTVNVADELVEEVLVEEVSIDGMCGVY"
+     gene            6684..7976
+                     /gene="mdo"
+                     /locus_tag="C3489_RS03770"
+                     /old_locus_tag="C3489_03770"
+     CDS             6684..7976
+                     /gene="mdo"
+                     /locus_tag="C3489_RS03770"
+                     /old_locus_tag="C3489_03770"
+                     /EC_number="1.1.99.37"
+                     /EC_number="1.2.98.1"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_020662116.1"
+                     /GO_function="GO:0050661 - NADP binding [Evidence IEA];
+                     GO:0016614 - oxidoreductase activity, acting on CH-OH group
+                     of donors [Evidence IEA]"
+                     /GO_process="GO:0046170 - methanol catabolic process
+                     [Evidence IEA]"
+                     /note="This methanol dehydrogenase is considered a
+                     nicotinoprotein, since its NADP cofactor remains is not
+                     dissociable, but instead remains permanently bound. A
+                     member of this family has been shown to act as a
+                     formaldehyde dismutase, able to convert two molecules of
+                     formaldehyde (plus one water molecule) into one of methanol
+                     and one of formate, with no net change in its redox state.
+                     More recently, it was shown in Mycobacterium smegmatis that
+                     this enzyme is critical to ethanol utilization, for which
+                     the biosynthesis of the cofactor-like electron carrier
+                     mycofactocin is also required; Derived by automated
+                     computational analysis using gene prediction method:
+                     Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="NDMA-dependent methanol dehydrogenase"
+                     /protein_id="WP_103779838.1"
+                     /translation="MQVEELLKPFPIKEFHPFPRALMGPGAHELIGPEAKKLGFKRTLV
+                     MTTGLRGSDTVHKIVESLKYHGLEVVVYDKVESNPKDYNVMDAVALYQENKCDSFVSIG
+                     GGSSHDACKGARISVAHDGRSVNDFEGFNKSENPKNPPHIAVSTTAGTGSETSWAYVIT
+                     DTTTDPDNPHKYVAFDDASVASLAIDDPTLYYDCPLDYTAQCGFDVLAHASEPYVSRLN
+                     FQPSLGNALHAIRLTARHLRQAVWNGQDLAGREGMMYAQYIAAQAFNSGGLGIIHSISH
+                     AVSAFYDTHHGLNNAIALPRVWAFNMPAHYERFADIAEAMGVDTHGMTKVQAAEAALAA
+                     GIRLLRDVGIPEKFTDVEQNTYSKNRLGQGPTKFYEQAKVIKGDAADVDRITHHVLGDA
+                     CTPGNAKECTFDTVRPVVEHCMNGDLDDLLG"
+     gene            8045..9235
+                     /locus_tag="C3489_RS03775"
+                     /old_locus_tag="C3489_03775"
+     CDS             8045..9235
+                     /locus_tag="C3489_RS03775"
+                     /old_locus_tag="C3489_03775"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014671062.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="MoxR family ATPase"
+                     /protein_id="WP_103779840.1"
+                     /translation="MPATPDNPAFGSVEDVAERFAAHGYIADRRLATTVFLQTRLDKPL
+                     LLEGPAGVGKTELAKTLAAATGRRLLRLQCYEGQDESRALYEWDYGKQLLYTQMLRDKI
+                     GDLTADAPDLASAVLRIEEQDSVFFSDRFLAPRPLLDAVRGEQPAVLLIDEVDRADEAL
+                     EAVLLECLAEYQVSVPEIGTYTAKVPPYVVLTSNNTRDLSAALKRRCLHLFLDYPDAER
+                     ELEIVRAKDTGLPEAAARHLVDVVRGLRELPLRKSPSISETVDWARTLAVLGVDELAPA
+                     VLADTANVVLKYERDLHRALDVLPRLADPNRTLPEPGRHHGHPHHGGHHHHDGDHHDHG
+                     GHGEVDGRAVRAAMDRQGRHDENYYGAPGAGPAHRTTPGAGQGARSFAAIARRRTD"
+     gene            9263..10786
+                     /locus_tag="C3489_RS03780"
+                     /old_locus_tag="C3489_03780"
+     CDS             9263..10786
+                     /locus_tag="C3489_RS03780"
+                     /old_locus_tag="C3489_03780"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014671063.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="VWA domain-containing protein"
+                     /protein_id="WP_258054546.1"
+                     /translation="MHRFVRVLRLFGLRVSVSEAMDAMRGAAQPGVLVERETLREALRM
+                     TLVKDRRDHPLFDDLFTAFFSLRPVDGGADGHGHSHAHDDLSDTGELESYTVSEEPSKT
+                     PEQGHSHGKPSDIRDFFDQQDLAQQYNLHQEANKIDLASMTDEIVLSEDGASGSRDDSP
+                     SVQLETERLHGAGIPGRLAPATGQPIGTTLTVAQHDALLGWLAEHQDDPDDPEAGAWRR
+                     QLMGVVENLPELLKRHLDRLAELRSVAVESARIAERARLEAIDEEERGQLEEALRRVGR
+                     TVHGALTSRKRNTPTGRVHPGRTMRRNMRFDGVPFRPVTVTRAEDRPRLLVLADVSLSV
+                     RATARFTLHLVHGLQSLFGQVRSYAFVDEPTEITELFAEHPLERALGLVFDGLPAGGLL
+                     DVDTTSDYGRTFETLLTEHSAALGRRTTLLVLGDGRGNGNPPRTEAFAEITRRVRQTVW
+                     LTPEPRYSWGLGACDLPRYAEYCDRVQVVADLAGLERTALRMAAEATGR"
+     gene            10821..11747
+                     /locus_tag="C3489_RS03785"
+                     /old_locus_tag="C3489_03785"
+     CDS             10821..11747
+                     /locus_tag="C3489_RS03785"
+                     /old_locus_tag="C3489_03785"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014671064.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="class I SAM-dependent methyltransferase"
+                     /protein_id="WP_103779843.1"
+                     /translation="MSVPSLRSAIAARRIDPLAPSAPGLYADHLVRVVRDGPAAGGCTP
+                     RPIVRTAHFTLRRRGRRVELGHSLRPEQLDNDLAGLLAEELFAPGWLSGSDVFERVFTG
+                     VVRSCVDGPLPAWTTFYDNTLARIQKYWQDPEPAEHSSIAGFAPVYRRTLDLVPAGSVL
+                     DLGSCFGFLPLLLAERDARTVIASDLSPGTMRLLGTVARARGLALDALVCDASRVPLPD
+                     GSVDTVTVIHVLEHLDPGHGDAVVREALRLARRRVVVAVPYEDEPTAAYGHVRCFSPEQ
+                     LAALGRRTGHGFSVDTFHGGWLVVDHG"
+     gene            11813..12463
+                     /locus_tag="C3489_RS03790"
+                     /old_locus_tag="C3489_03790"
+     CDS             11813..12463
+                     /locus_tag="C3489_RS03790"
+                     /old_locus_tag="C3489_03790"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_019527495.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="GPR1/FUN34/YaaH family transporter"
+                     /protein_id="WP_103779845.1"
+                     /translation="MALSETETADSAAAHAKPRPQATPGPLDGDPALIGVPTFIVGSIA
+                     LGLTLVGYVPAGTAGAPLAIILAATALGQLIAAVWAAALGQSAVAAIFGVFTGFWLSYA
+                     VLVLGLTHGWFAIAGSAATRTQALFLISWLATIVLLTLSTLRLPAAFTVLFTLIDLALA
+                     LVLSATLNGSSTLQTAGGYTVFAFVAVGCYLFWHVTSLATGGRGLPLGRPAVS"
+     gene            complement(12518..13183)
+                     /locus_tag="C3489_RS03795"
+                     /old_locus_tag="C3489_03795"
+     CDS             complement(12518..13183)
+                     /locus_tag="C3489_RS03795"
+                     /old_locus_tag="C3489_03795"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015493196.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="response regulator transcription factor"
+                     /protein_id="WP_103779847.1"
+                     /translation="MTAEQPAQAPTQVLRIVLVDDHAIVRHGLRSILERESDLEVVGEA
+                     STAAEADAVVERTRPEIVLLDLKLSTAADTEGLDLCARLTRRHPDLAVLVLTTFLDDQL
+                     VVEAIQHGARGYVVKDVDTTELLRSLRAVARNESAFDSHAAAAMVRSMRVQPERPKFTE
+                     RELKVLRLLAHGLSNREIGAELYISETTVKFHVRNIMRKMDAGSRAEVVYEASKSGVI"
+     gene            complement(13180..14547)
+                     /locus_tag="C3489_RS03800"
+                     /old_locus_tag="C3489_03800"
+     CDS             complement(13180..14547)
+                     /locus_tag="C3489_RS03800"
+                     /old_locus_tag="C3489_03800"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014671066.1"
+                     /GO_component="GO:0016021 - integral component of membrane
+                     [Evidence IEA]"
+                     /GO_function="GO:0000155 - phosphorelay sensor kinase
+                     activity [Evidence IEA]; GO:0046983 - protein dimerization
+                     activity [Evidence IEA]"
+                     /GO_process="GO:0000160 - phosphorelay signal transduction
+                     system [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="histidine kinase"
+                     /protein_id="WP_103779849.1"
+                     /translation="MNDPERSPQTSDLGVLTGLRSGKRSFYPAYVRSTERLERTVEALD
+                     GISRALVRTAEGPRALVEAVVRTAAEHLRARWLLLAVADGALRAARPRFLLYTDDVFID
+                     DETRLPAEVREHLQLLRTRPWEAQEPSRGRGWVRAPMTLDDEPVGGIAAQPGAGVEVAD
+                     TDLAILRVLANQAAVALHHTFLFHAATTLRGRAEELSEAAERQARDLAARSAELAETQA
+                     RLLDAMQRQALDDERRRIARELHDSVSQYVLSAGMTVEVCRAELAGLGGEAAGIAERLA
+                     GAKDLNRQAVERLRAAIYALHHTSQEPAGPLPVLLERLSTVHLPTDLDVRVQVAGRPAP
+                     LPPDAERSLLRITGEALFNSATHGKAGRALVRLRYQPHAVVLTVSDDGGGDPAQLRRAL
+                     RLSRATDLAGRHRGLANMVARAEELGGRLSIRRSGMGGVLLRVDVPLPVKHSGGSG"
+ORIGIN
+        1 ggcgtaggtg atggtgcggg tgtcgcccgg ctcgccctcc cagtggaagg cgacctggtc
+       61 gccgtagccg gcctcgacat ggcggtccac gcagttgtac gccacgttca gccggccgcc
+      121 ggtgaaccag cgggcgtagg gcgcgtccga ccagtccagc acctggtgcc actcggtgtc
+      181 ccagtgcagc cgtcccgcct gctccgccca gtacgccagg cggtcggccg cggccccgtc
+      241 cgacggtacg ggcacagtgc tcgggatctg ggggcggacg cggtcgtcgg agcgcgcaga
+      301 catggggatc ctccagtggg gtgcatgtgt cggggacggg ccgggagcgc ggctggcccg
+      361 tccgcgggtg gccacagtgg ccggacaggg ttggcgtgag gttggcggcg gcgtgcgcct
+      421 acggacgcgc ggcggtccag cggctcacca cgcgcagcgc gagacgtggc ttcagcggtg
+      481 ccgcggtccc gcggcgcacg gcgccctgcc agacgcccca gccgtaggcc aggtcgtcca
+      541 ggcggcggag caccgtgtac gccggtgggg acagggaggt gccggagcgg cggtggtcca
+      601 ccagcccctc gacgacggcc gcggcgatca gcacatgccg ggcacggcgg ttgacggcgg
+      661 ccgcggcgag ggcgaccggc cagtggtgcc gggtcgcgca gcgcagcagc tgctcggcgg
+      721 tgccgcgcag cgccgcgagc gccagcaggg cgccggcgcg ggccgggtgg tcggcgtcgg
+      781 gcatcctgcg ggccacgcgc agcgcggtca ggcccgtcaa cgccgccgcc agtgccaccg
+      841 gggcgggcct gccgcgcgcc agcagggcgc aggcggccag cgaccagggg gcggcgtaca
+      901 gcggcggcac ccggtcgggg tgacgcagcg ccaggtccgc ggcgccggtg ccgtatccgg
+      961 cccgttgggc gagccagctg cgcaggtcgg tgcggtgccg gtggcccacc cgggcggcgg
+     1021 ggacatagcg cagccgccag ccggcctcgt gcagccgtat gcacaggtcg acgtcctcgg
+     1081 ccacgcgcag ggtctcgtcg aagccggggc cgagggccgc gcggcggacc acgatggtgg
+     1141 cgctgggcac gtaggagagc gcggacacgg ggacgacggg cccttcggcc acgcccatgt
+     1201 ccagcggcga gcggagctcc tcgtaccggt cgagcagccc ggggtcgggg accggcagcg
+     1261 cgaccacccg gggtgcggcg agcgccagcg cggggtcggc gaactgcgcc agcagcgggg
+     1321 ccagccagcc cggctccggc accacgtcgg agtcgcagaa cgccacgtac ggggtacggg
+     1381 cgtggcgcag cccggtgttg cgggccgcgg ccgggccccg gttgtgcggg tgggtcagca
+     1441 gccgggcgcc gtgccggcgg gccacctcgg ccagggcggc ggggtcccgg gagccgtcgt
+     1501 ccacgaccag caccggcagg tgtgcggtcg ccgggtcggc gcgcagggcg gccagcaggt
+     1561 cgtcgagccg ggcggcacgg tcccggacgg ggaccacgac ggtggtgtcg ccggccggta
+     1621 cgggggcggg gcgcgggtgg acgagcccgg cgtccaggag ccgccgggcg agcgccgcgc
+     1681 tcgtcgcgtc cgtgacggtg aaccggccgt cgccgagccg gcggaccgcc gcgtcggtca
+     1741 gtctgaccag ccgcagcggt gaaccgccca ccatgagccg tccgtcgcgg gaccggtgtg
+     1801 tgccgggggc gagttcgacc gtgaaaccgt gcggcaacgt ggtgtcggac ggcgatggca
+     1861 gccgggcacc gagcggtcgc gggcgtacga gtgtcatgcg gtgaagcctc cgtccgcgtg
+     1921 cagtacggag ccggtgacgg cgaaggagtc ggcggagcag gcccaggcga ccacggcggc
+     1981 cacctcctcc ggttccaggg ggcgtccggt gagctgctgt tcggcgagct tgtcgacctc
+     2041 gggcagctcg tagaggtcgg ccgtggcgcg cagcatgtcc gtgcgggtgg agccggggga
+     2101 cacggcgagc gcgttcacgc cggtgtcgcg caggtcgcgg gccaggccgc ggaccagtcc
+     2161 gacgacggcg tgcttggcgg cgcagtaggc gccgagtccc cacaggccgc ggtgcgcggc
+     2221 ggccgaggcg agggcgacga accggccggt gcgcggctgc ggcctgcgca gcagggcggg
+     2281 tacggcggcg cgggcgaggt gggcgacgcc caggacgtcc acctccagca gggtccgcca
+     2341 ctgcgcgtcg gtctgttccc acaccgggcc gccgccgagc atgacggccg cggcggccac
+     2401 ggcggcgtcg agaccgccga gctcgcgctc ggccacctgc acggcggccc gcagcgcggc
+     2461 cgggtcgcgc acgtccgcct tgacggtgcg caccaggggg aactcccggc ccagggcccg
+     2521 cagttgttcc ggggcggcca gcgggtaggg cacctcgggg tcgtcctcgc agcggtccac
+     2581 ggcgacgacg gcccagccct cgcgggccag cctgcgcacg gtcgccgccc cgatgccccg
+     2641 ggcggcaccg gtgaccaccg cgaccctcgg gccggtcatc gccgcgctcc caccggggcg
+     2701 agggcgggcc ggcgctcgga acggccgagc cggccccgcc cggagacccg ccaggcccgg
+     2761 atgtcggcgg cgaggcggtc cgccatgacg tcgaggagcc gctcgccctc gcccgcgcgg
+     2821 gccccggcgg ggtcgccgag gactccggac gggctgaccc cgcggacgga ctcggtgacc
+     2881 agccggtcca tcagcacttc gacgggctcg gtcggcccgg cgacggcccg ctcgccctgg
+     2941 acggccgcgc gccgcagccg cagcatcatc gaggtctcgg cgcggcccgc gtgggcgtcc
+     3001 gaacccggtg gcaggcacgg ccaccaggcc acgtcccggc tctcgccgcg cagcccggtc
+     3061 accgcgtcgg ccaggctcac caggttgccg ccgtgcccgt tgaccacgag caggcggccc
+     3121 gcccagcgca gcatcgagcg gccgatctcg gtgacgagca ggcgcagcgc gtcatggccg
+     3181 gcggacaccg tgccggggaa cccctcgtgc tcgccgctgg ccccgtacgg ctgggccggg
+     3241 gcgaccagca cgtccacctc gccccgcagc cggccggcgg cccgcccggc gaccgccgtg
+     3301 gccacggcgg tgtccgtgtc cagcgggagg tgggggccgt gctgctcgca ggagccgagg
+     3361 ggcagcagca ccagcgggcc gcggtcggtg aggtccggcc aggcgaggtc ggcgagccgg
+     3421 gtcgcgggac cgggtggcgt cgcgggggcg ggctcggccg gcatgtcaga ccgcgcccag
+     3481 ggtgcgggtg aagcccggcg ggatcaccag gtcgtcgcgg ctcagctcgt gcacggagga
+     3541 gcggccgagg cccagcaggg cggagtcgat gccgccgcgc aggatgtcca ggacgttctc
+     3601 cacgccgctc tgcccgccgg cggccaggcc ccacaggtag gcgcggccga tcatcacggc
+     3661 cttcgcgccg agcgccagcg ccttgaccac gtcgctgccc cggcgcacgc cgctgtccag
+     3721 caggacctcg acctgaccgc ccaccgcgtc cgcgacggcg ggcagggcgc ggatcggggc
+     3781 cggggtgctg tcgaggttgt tgccgccgtg gttggacacc gagatcgcgc tgacgcccgc
+     3841 gtcgacggcg cgcagcgcgt cgtccaccct gcagatcccc ttgagcagga acggcccgtc
+     3901 ccactgctcg cgcagccagc gcacgtcgtc ccaggagggg ggcggggtct gcatccactc
+     3961 tccgtaggcg ccgaagaacg tgggcgcgtc cccgcccggg tcggcgaggt tcggcgccgt
+     4021 gaggtcgggg agccggccgg acttcacgaa gtccagcagc cagcgcggac gccgcacggc
+     4081 ctccggcgcg aaccgtgcca tggccttgag gtccagccgc tccgggatct tcgggctgcc
+     4141 ccagtcccgg ccgtgcgaga aggaccagtc gagggtgacg atcagcgcct tcgcgccgta
+     4201 tgtgtaggcg tgctcgatgc gttgcagcat cgcgtccttg gagcccatcc agtacatctg
+     4261 gaagaacgtc tggggattgg cggcgacgac gtccttcagc ggcttgctcg cgaaggagct
+     4321 gagccccatc gccgtgccgc gggcagccgc cgcgcgggcg acggccacct cgccgtcggg
+     4381 atgcacggcc tgcacgccgg tcggggagat gatcaccggc agggagatct gctcgcccag
+     4441 caccgtcgtc gactggtccc gcttggccga cagcccggcc acatggggtg cgaagcccag
+     4501 ctccgcgaac gccgcggtgt tgtcgtcgta ggaggtgccc ttctccgaac cggccagcag
+     4561 ggcgctgtag accgacttcg gcagtcgctt gccggccctt cgctgggcct cggcgaccgt
+     4621 ctcgaaccac ccgctcatca ctcgtctcct ctcatgaaca cgtgttcgtc ggcagcccgg
+     4681 ccagcgggct ctcgtcacac aggcggtccg ggcggccggt ccgcagggcg ggcatgccca
+     4741 gcgcgaccgt ccggtgcgag tggtccttgc cctggcgcgg cagggcgcct gggtccacgg
+     4801 ccgacagcgc ggcggcgcca tggcccttga cgcactccgg gtcggggccg tccagcggaa
+     4861 ggccggtgaa gaacttcgcc gccatgcagc cgccctggca ggtgtcgtag gccggacagc
+     4921 ccgagcaggc gcccccggtg gagggcctgc gcagctcggc gaagagcgcc gactcgcgcc
+     4981 acacccggtc gaagccgccc ggcgagcgca cattgcccgc cttgaaggcg tcgtggatgg
+     5041 cgaacgggca ggcgtacacg tcgccgaccg ggtcgatcag gcacaccacc cgccccgccc
+     5101 cgcacaggtt cagcccgggg atcggctccg agccgagcgc gttgaggtgg aagaaggagt
+     5161 caccggtgag cacccgctcg ccgtgaccga gcagccagga gtagatggcg tactgctgct
+     5221 cggcggtggg gtgcaggtcg tcccacacgt ccgcgccgcg cccggacggc cggagccggg
+     5281 tgatgcgcag ctgggcgccg tagcggtcgg cgatcgcggc gaagtcgtcg agctgggaca
+     5341 cgttctgacg ggtcatcacc accgagatct tgaagtcccg gaaacccgcc tcggcgaggt
+     5401 tctccatggc ccggatcgcc atgtcgtagg aacccgggcc gcggaccgcg tcgttgacct
+     5461 cgcgggtggc gccgtccagg gagatctgca catcgacgta gtcggtcgcg gccagccgcc
+     5521 gggcgcgttc gggggtcagg cgcagtccgt tggtggagaa cttcacgccg acctggtggg
+     5581 cgatcgcgta gtccagcagc tcccagaagt cggggcggac cgtgggttcg ccgccgccga
+     5641 cgttgacgta gaagacctgc atgcgctgga gctcgtcgat cacggacttg atctcgtccg
+     5701 tggacagctc cagcgggtcg cgccgcccgg aggaggacag gcagtgcgca caggacaggt
+     5761 tgcacgcgta ggtccactcc caggtcaggc agatcggggc gtgcagcccg cccttgaact
+     5821 gctcgacgag ggcgggcacg cgctcggtgg gtggggggtc gtgaagggtg gtcatcaccg
+     5881 cgctccggtt ccactgcgct ggggaatgat catgtcggcg gctgccaggg aggccagcgc
+     5941 gcgcaggaag gcgccccgcc gggcgtcggg caccccggcg agggcgaccc cgacgctggg
+     6001 gtgacggccg agctcctgga ccagttcgac cagctcgggc gccttcagga aggacagccg
+     6061 gcggttgccg aagtggtagg cgagcgcccc gaacggctcg gggcgcaggg cgacggaggg
+     6121 gttcagccgg taggggcgtg ccgcatcgaa cgccggggac gtcatgacgg gggcctagta
+     6181 gacgccgcac atgccgtcga tcgagacctc ttcgacgagg acctcctcga cgagctcgtc
+     6241 ggcgacgttg acagtgtcct gctcggcctt gatctgttcc tcgaacacga caaacctcct
+     6301 gaacggtaag gggatcggga tgcggccggc tccgccctgc ggtgcccggg ccgtactcga
+     6361 cgctacgggc gcctccccgc gccgctcgcc ctgcttccgg ccgccctcac cctgtccggt
+     6421 cggacaggtg tgcccgtgcc ggggccggtt gccggcgggg tgtcccgtcc gatcggtcag
+     6481 gtcgcgccct gtccgtccgg tgccgcgctg ccgtccgagc ggccggtgtc gccccgcgcc
+     6541 gcgttcccgg agggtgagtc acgccaccaa ctccggcacg tccgtgctcc accccggacc
+     6601 tccatgccgc cggccggctt ggcccggtgg agcagtcgac gcaggacgcg cggcccgccc
+     6661 gcgcggagag gacagtcgcg atcatgcagg tcgaagaact tctcaagccg ttcccgatca
+     6721 aggaattcca ccccttcccc cgggcgctga tgggcccggg cgcccatgag ctgatcggtc
+     6781 cggaggccaa gaagctgggc ttcaagcgca cgctggtgat gaccaccggt ctgcgcggca
+     6841 gcgacaccgt gcacaagatc gtcgagtcgc tgaagtacca cgggctcgaa gtcgtcgtgt
+     6901 acgacaaggt cgagtcgaac cccaaggact acaacgtcat ggacgccgtg gcgctgtacc
+     6961 aggagaacaa gtgcgactcg ttcgtgtcga tcggcggcgg ctcgtcgcac gacgcgtgca
+     7021 agggcgcccg tatctccgtc gcccacgacg gccgcagcgt caacgacttc gagggcttca
+     7081 acaagtccga gaacccgaag aacccgccgc acatcgcggt ctccaccacg gccggcaccg
+     7141 gttcggagac ctcgtgggcg tacgtcatca ccgacacgac cacggacccg gacaacccgc
+     7201 acaagtacgt cgccttcgac gacgcctccg tggccagcct cgccatcgac gacccgacgc
+     7261 tgtactacga ctgcccgctg gactacaccg cgcagtgcgg cttcgacgtc ctcgcccacg
+     7321 cctccgagcc gtacgtctcg cggctgaact tccagccgtc gctgggcaac gcgctgcacg
+     7381 ccatccggct caccgcccgc catctgcgcc aggccgtgtg gaacggccag gacctggccg
+     7441 gacgtgaggg catgatgtac gcccagtaca tcgcggcgca ggcgttcaac tccggtggcc
+     7501 tgggcatcat ccactccatc tcgcacgcgg tcagcgcctt ctacgacacc caccacgggc
+     7561 tcaacaacgc catcgcgctg ccccgggtct gggcgttcaa catgccggcc cactacgagc
+     7621 ggttcgccga catcgccgag gcgatgggcg tggacacgca cggcatgacg aaggtgcagg
+     7681 ccgccgaggc cgccctcgcc gcgggcatcc ggctgctgcg cgacgtcggc atcccggaga
+     7741 agttcaccga cgtcgagcag aacacctact ccaagaaccg cctcgggcag ggcccgacga
+     7801 agttctacga gcaggccaag gtgatcaagg gcgacgcggc cgacgtcgac cgcatcaccc
+     7861 accacgtcct cggcgacgcc tgcaccccgg gcaacgccaa ggagtgcacg ttcgacaccg
+     7921 tccggcccgt cgtcgagcac tgcatgaacg gcgacctgga cgacctgctc ggctgagcac
+     7981 ctcatgcccg ggagcggggg gctggaggtc gccccccgct cccgccccac cggacggagg
+     8041 aaccgtgccc gccacacccg acaaccccgc gttcggctcg gtcgaggacg tcgccgagcg
+     8101 gttcgccgcc cacggctaca tcgccgaccg gcgactcgcc accaccgtgt tcctgcagac
+     8161 caggctggac aagccgctgc tgctcgaagg cccggccggc gtcggcaaga ccgagctggc
+     8221 caagacgctg gccgccgcca ccggccgccg gctgctgcgc ctgcagtgct acgaagggca
+     8281 ggacgagagc cgcgccctgt acgagtggga ctacggcaag cagctgctgt acacccagat
+     8341 gctgcgggac aagatcggcg acctcacggc cgacgccccc gacctggcct ccgccgtgct
+     8401 gcggatcgag gagcaggaca gcgtcttctt ctccgaccgg ttcctcgcac cccgcccgct
+     8461 gctggacgcc gtgcgcggcg agcagccggc cgtcctgctg atcgacgagg tcgaccgggc
+     8521 ggacgaggcg ctggaggcgg tgctcctgga gtgcctggcc gagtaccagg tgtccgttcc
+     8581 ggagatcggc acgtacaccg cgaaggtccc cccgtacgtc gtgctgacct ccaacaacac
+     8641 ccgcgacctg tcggcggcgc tgaaacgccg ctgcctgcac ctcttcctgg actacccgga
+     8701 cgccgagcgc gagctggaga tcgtacgcgc caaggacacc gggctgcccg aggccgccgc
+     8761 ccgccacttg gtggacgtcg tgcggggcct gcgcgagctg ccgctgcgca agagccccag
+     8821 catctccgag accgtcgact gggcccgcac cctcgccgtg ctgggcgtcg acgaactcgc
+     8881 ccccgcggtc ctcgccgaca ccgccaacgt cgtcctcaag tacgagcggg acctgcaccg
+     8941 cgcgctggac gtgctgccgc gcctggccga ccccaaccgc acgctgcccg aacccggccg
+     9001 gcaccacggg cacccgcacc acggcggcca ccatcaccac gacggcgacc accacgacca
+     9061 cggcgggcac ggcgaggtgg acggccgtgc cgtccgggcc gccatggacc ggcagggccg
+     9121 gcacgacgag aactactacg gcgcccccgg cgccgggccg gcgcaccgca ccacccccgg
+     9181 tgccggccag ggcgcccgct ccttcgccgc catcgcgcgg cgccgcaccg actgaacccg
+     9241 ggaggcctgc atggaagccg gtgtgcaccg attcgtccgc gtgctgcggc tgttcggcct
+     9301 gcgggtctcc gtgtcggagg ccatggacgc catgcgcggg gccgcccagc ccggcgtgct
+     9361 cgtcgagcgc gagacgctgc gcgaggcact gcgcatgacg ctcgtgaagg accgccgcga
+     9421 ccacccgctg ttcgacgacc tgttcaccgc gttcttctcc ctgcgcccgg tggacggcgg
+     9481 cgccgacggc cacggccaca gccatgcgca cgacgacctg tccgacacgg gtgagctgga
+     9541 gtcgtacacc gtctccgagg agccctcgaa gaccccggag cagggccaca gtcacggcaa
+     9601 gccgtccgac atccgcgact tcttcgacca gcaggacctg gcccagcagt acaacctgca
+     9661 ccaggaggcc aacaagatcg acctggcctc gatgaccgac gagatcgtgc tgtccgagga
+     9721 cggcgcgagc ggctcgcgcg acgacagccc gtccgtccag ctggagaccg agcggctgca
+     9781 cggcgccggc atccccggac ggctcgctcc ggcgaccggg cagccgatcg ggacgaccct
+     9841 gaccgtcgcc cagcacgacg ccctgctcgg ctggctcgcg gagcatcagg acgatcccga
+     9901 cgacccggaa gcaggtgcgt ggcgccggca gctgatgggt gtcgtcgaga acctgcccga
+     9961 gttgctgaaa cggcatctgg accggctggc cgaactgcgg tcggtggccg tggagtccgc
+    10021 ccggatcgcc gaacgcgccc gcctcgaagc gatcgacgag gaggagcgcg ggcagctgga
+    10081 ggaggcgctg cgccgggtgg gccgcaccgt gcacggcgcc ctcaccagcc gcaagcgcaa
+    10141 caccccgacg ggccgcgtcc atccgggccg caccatgcgc cgcaacatgc gcttcgacgg
+    10201 cgtcccgttc cggcccgtca ccgtcacccg cgccgaggac aggccgcgcc tgctggtcct
+    10261 cgcggacgtc tccctgtcgg tgcgggccac cgcccgcttc accctgcacc tggtgcacgg
+    10321 gctgcagtcc ctgttcgggc aggtgcgcag ttacgccttc gtcgacgaac ccaccgagat
+    10381 caccgagctg ttcgccgagc acccgctgga gcgggcgctg gggctggtct tcgacgggct
+    10441 gccggccggc ggcctgctgg acgtggacac cacctccgac tacggccgga ccttcgagac
+    10501 gctgctgacc gagcactccg ccgcgctggg ccgccgcacc accctgctgg tgctcggcga
+    10561 cggccgcggc aacggcaacc cgccgcgcac cgaggcgttc gcagagatca cccgccgggt
+    10621 gcggcagacc gtctggctga ccccggagcc gcgctactcc tggggcctgg gcgcctgcga
+    10681 cctgccccgc tacgccgagt actgcgaccg cgtgcaggtg gtcgccgacc tcgccgggct
+    10741 ggagcgcacc gccctgcgca tggcggcgga ggcgaccggc cgatgaacac caccgcacac
+    10801 cgtcaggggg agccgtcgcc gtgagcgtcc cgagcctgcg cagcgccatc gccgcgcgcc
+    10861 gtatcgaccc gctggcgccg agcgcgcccg gcctgtacgc cgaccacctg gtacgtgtgg
+    10921 tccgcgacgg ccccgccgcc gggggctgca ccccgcgccc catcgtccgc accgcgcact
+    10981 tcaccctgcg ccgccgcggc cgccgcgtcg aactgggcca ctcgctgcgc cccgaacagc
+    11041 tggacaacga cctcgccgga ctgctcgccg aggagctgtt cgcccccggc tggctgtccg
+    11101 gcagcgacgt cttcgagcgg gtcttcaccg gggtggtgcg ctcctgcgtg gacggccccc
+    11161 tgcccgcctg gaccaccttc tacgacaaca ccctggcccg catccagaag tactggcagg
+    11221 accccgagcc ggccgagcac tcctcgatcg ccgggttcgc ccccgtgtac cggcgcacgc
+    11281 tcgacctggt ccccgcgggc agcgtgctgg acctcggttc ctgcttcggc ttcctgccgc
+    11341 tgctgctggc cgagcgggac gcgcggacgg tgatcgcctc cgacctctcc cccggcacca
+    11401 tgcgcctcct gggcacggtg gcccgcgccc ggggcctcgc gctcgacgcg ctggtctgcg
+    11461 acgcgtcccg ggtgccgctg cccgacggct cggtggacac cgtcaccgtc atccacgtcc
+    11521 tggagcacct ggaccccggg cacggtgacg ccgtcgtgcg ggaggcgctg cggctggccc
+    11581 ggcgccgggt ggtggtggcc gtgccgtacg aggacgagcc gaccgccgcg tacgggcacg
+    11641 tgcggtgctt ctcccccgag cagctcgccg cactgggccg ccgcaccggc cacgggttct
+    11701 cggtcgacac cttccacggc ggctggctgg tcgtcgacca cggctgagcg aaagctcccc
+    11761 ccaagaactg cgccgccccg aagagaaaca ccccgacgca aaggagcgtt ccatggccct
+    11821 ctcggaaacg gaaacggcgg actccgccgc agcgcacgcc aaaccccggc cgcaggccac
+    11881 gccgggaccg ctggacgggg acccggcact gatcggcgtg cccacgttca tcgtgggctc
+    11941 gatcgccctc ggcctcaccc tggtcggcta tgtcccggcg ggcaccgccg gagcaccgct
+    12001 cgcgatcatc ctcgcggcca cggcgctcgg ccagctgatc gccgcggtct gggcggccgc
+    12061 gctcgggcag agcgccgtcg ccgcgatctt cggtgtcttc accgggttct ggctcagcta
+    12121 cgcggtgctg gtgctcgggc tcacccacgg ctggttcgcg atcgccgggt ccgccgcgac
+    12181 caggacccag gcgctgttcc tgatctcctg gctggccacc atcgtgctgc tgaccctgag
+    12241 cacgctacgg ctgccggccg ccttcaccgt gctgttcacc ctgatcgacc tggccctcgc
+    12301 cctggtgctg tccgcaaccc tgaacggctc cagcacgctg cagacggcgg gcggctacac
+    12361 cgtcttcgcc ttcgtcgcgg tcgggtgcta cctcttctgg cacgtgacct cgctggccac
+    12421 cggagggcgc ggcctaccgc tcggccgtcc ggccgtgagc tgacgagctg aaggcaggga
+    12481 gcggggaccg ccggcgggcg ctccccgctc cctcgcgtca gatgacgccc gacttgctgg
+    12541 cctcgtagac gacttccgcc ctgctcccgg cgtccatctt ccgcatgatg ttgcggacgt
+    12601 ggaacttcac cgtggtctcc gagatgtaca gctccgcgcc gatctcccgg ttgctcagcc
+    12661 cgtgggcgag cagccggagg accttcagct cccgttcggt gaacttgggc cgctcgggct
+    12721 gcacacgcat cgagcgcacc atcgccgccg ccgcgtgcga gtcgaaggcg ctctcgttgc
+    12781 gggccaccgc gcggagggaa cgcagcagtt cggtggtgtc cacgtccttg acgacatagc
+    12841 cgcgcgcacc gtgctggatc gcctccacga ccagctggtc gtcgaggaac gtggtgagca
+    12901 ccagcaccgc caggtccggg tggcgccggg tgagccgggc gcacaggtcc agaccctcgg
+    12961 tgtcggcagc ggtggagagc ttcaggtcga gcagcacgat ctccggacgc gtccgctcga
+    13021 cgacggcgtc ggcctcggcg gccgtgctcg cctcgccgac cacctccagg tcgctctcgc
+    13081 gttccaggat cgacctgagc ccgtgccgga cgatcgcgtg gtcgtcgacc agcacgatcc
+    13141 gcaggacctg cgtgggtgcc tgagccggct gttcggccgt catccgctgc ctcccgagtg
+    13201 cttcaccggc agcgggacgt cgacccgcag caggacgcct cccatccccg accggcggat
+    13261 ggacagtcgg ccgccgagct cctccgcccg ggcgaccatg ttcgccagcc cgcggtggcg
+    13321 tccggcgaga tcggtggccc tcgacaggcg cagggcccgg cgcagctgcg ccgggtcgcc
+    13381 gccgccgtcg tcggacacgg tcagcaccac cgcgtgcggc tgataccgca ggcggaccag
+    13441 cgcccggccc gccttgccgt gcgtggccga gttgaacagg gcctcgccgg tgatccgcag
+    13501 gagcgaccgc tcggcgtcgg gcggcagcgg tgccggccgg cccgccacct gcacccgtac
+    13561 gtcgaggtcg gtgggcaggt gcaccgtgga cagccgctcc agcagcaccg gaagcggccc
+    13621 cgccggctcc tgcgaggtgt ggtgcagcgc gtagatcgcg gcgcgcagcc gctccacggc
+    13681 ctgccggttg aggtccttgg cgccggcgag ccgttcggcg atcccggcgg cctccccgcc
+    13741 caggcccgcc agctcggccc ggcacacctc caccgtcatc cccgcgctga gcacgtactg
+    13801 ggagacgctg tcgtggagtt cgcgtgcgat gcgccggcgt tcgtcgtcca gcgcctgccg
+    13861 ctgcatcgcg tcgagcagcc gcgcctgggt ctcggccagc tcggcgctgc gcgcggccag
+    13921 atcccgggcc tgccgctccg ccgcctcgga cagttcctcg gcacgtccgc gcagggtggt
+    13981 cgccgcgtgg aacaggaacg tgtggtgcag cgccacggcc gcctggttgg cgaggacccg
+    14041 caggatggcc aggtcggtgt cggcgacctc gacaccggcg ccgggctgtg cggcgatccc
+    14101 gccgaccggt tcgtcgtcca gggtcatcgg cgcgcgcacc cagccccggc cgcgggaggg
+    14161 ctcctgggcc tcccaggggc gggtgcgcag cagctggagg tgctcgcgca cctcggcggg
+    14221 taggcgggtc tcgtcgtcga tgaacacgtc gtccgtgtac agcaggaacc ggggccgggc
+    14281 ggcgcgcagc gcgccgtcgg cgacggccag cagcagccag cgggcgcgca gatgctcggc
+    14341 ggcggtccgt acgacggcct cgaccagggc gcgcgggccc tcggccgtgc gcaccagggc
+    14401 gcgggagatc ccgtcgagcg cctccaccgt ccgctccagc cgctcggtgg agcgcacgta
+    14461 cgcggggtag aacgaccgct tgccggacct cagtccggtg agcactccca ggtcggaggt
+    14521 ctgcggggaa cgttcggggt cgttcac
+//

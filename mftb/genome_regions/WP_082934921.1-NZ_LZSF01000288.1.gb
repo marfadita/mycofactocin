@@ -1,0 +1,163 @@
+LOCUS       NZ_LZSF01000288         1127 bp    DNA     linear   CON 17-JAN-2022
+DEFINITION  Mycolicibacterium mucogenicum strain 1199456.5 contig_74, whole
+            genome shotgun sequence.
+ACCESSION   NZ_LZSF01000288
+VERSION     NZ_LZSF01000288.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Mycolicibacterium mucogenicum (Mycobacterium mucogenicum)
+  ORGANISM  Mycolicibacterium mucogenicum
+            Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+            Mycolicibacterium.
+REFERENCE   1  (bases 1 to 1127)
+  AUTHORS   Sutton,G., Brinkac,L., Sanka,R., Adams,M., Lau,E.,
+            Garcia-Basteiro,A., Lopez-Varela,E. and Palencia,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUN-2016) Informatics Core Services, JCVI, 9704
+            Medical Center Drive, Rockville, MD 20850, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method                   :: SPAdes v. 3.1.1
+            Genome Representation             :: Full
+            Expected Final Version            :: Yes
+            Genome Coverage                   :: 150.57x
+            Sequencing Technology             :: Illumina NextSeq 500
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 01/17/2022 07:09:34
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 5.3
+            Features Annotated :: Gene; CDS; rRNA; tRNA; ncRNA; repeat_region
+            Genes (total)                     :: 6,008
+            CDSs (total)                      :: 5,938
+            Genes (coding)                    :: 5,668
+            CDSs (with protein)               :: 5,668
+            Genes (RNA)                       :: 70
+            rRNAs                             :: 1, 3, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 1, 1, 1 (5S, 16S, 23S)
+            partial rRNAs                     :: 2 (16S)
+            tRNAs                             :: 62
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 270
+            CDSs (without protein)            :: 270
+            Pseudo Genes (ambiguous residues) :: 0 of 270
+            Pseudo Genes (frameshifted)       :: 47 of 270
+            Pseudo Genes (incomplete)         :: 225 of 270
+            Pseudo Genes (internal stop)      :: 14 of 270
+            Pseudo Genes (multiple problems)  :: 14 of 270
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            LZSF01000288.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+FEATURES             Location/Qualifiers
+     source          1..1127
+                     /organism="Mycolicibacterium mucogenicum"
+                     /mol_type="genomic DNA"
+                     /submitter_seqid="contig_74"
+                     /strain="1199456.5"
+                     /db_xref="taxon:56689"
+                     /country="Mozambique"
+                     /collection_date="2015-11-09"
+                     /collected_by="Alberto L Garcia-Basteiro, Elisa
+                     Lopez-Varela, Silvia Blanco"
+     gene            complement(<1..189)
+                     /locus_tag="A5642_RS29945"
+                     /pseudo=""
+     CDS             complement(<1..189)
+                     /locus_tag="A5642_RS29945"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_011726082.1"
+                     /note="incomplete; too short partial abutting assembly gap;
+                     missing C-terminus; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo=""
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mycofactocin radical SAM maturase"
+     gene            complement(186..464)
+                     /gene="mftB"
+                     /locus_tag="A5642_RS27100"
+                     /old_locus_tag="A5642_06510"
+     CDS             complement(186..464)
+                     /gene="mftB"
+                     /locus_tag="A5642_RS27100"
+                     /old_locus_tag="A5642_06510"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_020101387.1"
+                     /note="MftB, a small protein, is a peptide chaperone that
+                     assists the radical SAM enzyme MftC in performing two
+                     modifications to the C-terminal Val-Tyr dipeptide of the
+                     mycofactocin precursor peptide, MftA. MftB's role is
+                     analogous to the role of PqqD in the biosynthesis of PQQ, a
+                     cofactor that derives entirely from a Tyr and a Glu in the
+                     precursor PqqA; Derived by automated computational analysis
+                     using gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mycofactocin biosynthesis chaperone MftB"
+                     /protein_id="WP_082934921.1"
+                     /translation="MHHQVAVRPEPFGALLYHFGTRKLSFLKNRIIVEIVNSLADHPDV
+                     RSACRAAGIDDDQQGPYLHAFGVLVQSKMLVPAEENSENSPEGSIAP"
+     gene            complement(560..655)
+                     /gene="mftA"
+                     /locus_tag="A5642_RS27105"
+                     /old_locus_tag="A5642_06515"
+     CDS             complement(560..655)
+                     /gene="mftA"
+                     /locus_tag="A5642_RS27105"
+                     /old_locus_tag="A5642_06515"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_003886848.1"
+                     /note="Mycofactocin is a small molecule electron carrier
+                     derived from the final two amino acids, Val-Tyr, of MftA,
+                     the mycofactocin precursor. It plays a role in redox
+                     homeostasis and the metabolism of alcohols and aldehydes in
+                     Actinobacteria, including Mycobacterium tuberculosis;
+                     Derived by automated computational analysis using gene
+                     prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mycofactocin precursor MftA"
+                     /protein_id="WP_020101386.1"
+                     /translation="MDSNQQANSDTELVTETLVEEVSIDGMCGVY"
+     gene            757..>1127
+                     /locus_tag="A5642_RS27110"
+                     /old_locus_tag="A5642_06520"
+     CDS             757..>1127
+                     /locus_tag="A5642_RS27110"
+                     /old_locus_tag="A5642_06520"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_020101385.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="TetR family transcriptional regulator"
+                     /protein_id="WP_131808856.1"
+                     /translation="MRTETERPARDTGTAPQHGRVGRRRSTTRDHITHVALELFATRGF
+                     DDVSVDDVAHAAGISRRTLFRYFSSKNAIPWADFDASLTELRDLLNAVPHDVPMDAALR
+                     SALLEFNSFDESETPRHRRR"
+ORIGIN
+        1 gagctcgtcg atgatgtcct tgcactgctg cgtgctcagc tcccgcgggt cgcgcttgcc
+       61 cgacgacgac aggcagtgca cgcaggacag gttgcaggcg taggtcagtt cccaggtgag
+      121 gcagatgggc gcgtcgaggc cgtgctcgaa ctgctcgatc agccggggca caggtgccgt
+      181 tgcggtcatg gagcgatgga tccttctggg ctgttttcgc tgttttcttc ggcgggcacc
+      241 agcatcttgg actgcaccag cacgccgaag gcgtgcagat acggaccctg ctggtcatcg
+      301 tcgataccgg cggcgcgaca cgcgctgcgg acgtccgggt ggtcggccaa cgagttgacg
+      361 atctcgacga tgatgcggtt cttcaggaac gaaagtttgc gcgtaccaaa gtgatacagc
+      421 agcgcgccga acggttcggg gcggacggcg acctggtggt gcagccgcca gccgcggtcc
+      481 ggatcgaagg ctccctccgg cggagccgga aatccggctc ctgcgggccc ggtccgggcc
+      541 gcggctggtg cagacacggt cagtagaccc cgcacatacc gtcgatcgag acctcttcga
+      601 ccagagtctc ggtgaccagt tcggtatcgg aattcgcctg ctgattcgag tccatggatc
+      661 gcccctttcg ctaccgtggc agttgtcggg cctcgacaac tgtgatccaa gtcgcaagaa
+      721 tatggcatcg agtgccgaaa aggaagggcg ggtctgatga ggaccgagac ggagcgtccc
+      781 gcgcgcgata ccgggaccgc tccccagcac ggccgggtgg gccgtcgccg ctccaccacg
+      841 cgcgaccaca tcacccacgt ggcgctcgag ctgttcgcga cccgcggctt cgacgacgtc
+      901 agcgtcgatg acgtcgccca tgccgccggg atctcccggc gcaccctctt ccggtacttc
+      961 tcgtcgaaga atgccatccc ctgggccgac ttcgacgcga gcctgaccga gctgcgggac
+     1021 ctgttgaatg ccgtccccca cgacgtaccg atggacgccg cgctgcggtc ggcgttgttg
+     1081 gaattcaaca gctttgatga atccgagaca ccccggcacc ggcgccg
+//
