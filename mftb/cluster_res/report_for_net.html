@@ -1,0 +1,685 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>2022/10/25</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="d201fd22-5ff4-4f56-bc65-495374ece937" class="page sans"><header><h1 class="page-title">2022/10/25</h1><table class="properties"><tbody></tbody></table></header><div class="page-body"><ul id="391dbec6-a467-48ee-b321-d8979d5d2aa5" class="to-do-list"><li><div class="checkbox checkbox-on"></div> <span class="to-do-children-checked">Выделение ноды наиболее близкой к оригинальной последовательности MftB</span></li></ul><ol type="1" id="f111b95d-bd61-439f-b440-b7257eeaf056" class="numbered-list" start="1"><li>Выделила все сиквенсы из таблицы cytoscape, по которым строили сеть. Записала их в фаста файл. Код в локальном ноутбуке to_color_efi</li></ol><ol type="1" id="14792854-4335-429a-830d-7d573c5033eb" class="numbered-list" start="2"><li>По этому фаста файлу сделала blastdb:</li></ol><p id="6f2ec652-c65d-4112-ad99-6017a1471559" class=""><code>makeblastdb -in /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast.fa -dbtype &#x27;prot&#x27; -out /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_db</code></p><ol type="1" id="bc260fd1-e835-4dbd-adca-76edb26e94e5" class="numbered-list" start="3"><li>По ней бласт с оригинальной последовательностью:</li></ol><p id="ca002028-ca57-4fd5-a377-7fda74a7f20f" class=""><code>blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_db -out /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_res.tbl -outfmt 6</code></p><p id="4238197c-6129-4014-b936-c9f514d50c3b" class="">Output table format:
+qaccver means Query accesion.version
+saccver means Subject accession.version
+pident means Percentage of identical matches
+length means Alignment length
+mismatch means Number of mismatches
+gapopen means Number of gap openings
+qstart means Start of alignment in query
+qend means End of alignment in query
+sstart means Start of alignment in subject
+send means End of alignment in subject
+evalue means Expect value
+bitscore means Bit score
+Таким образом, самая бликая нода имеет id </p><p id="7297465b-cd92-4658-810c-0e4a896e4686" class="">WP_170306147.1	<code>WP_082966316.1</code>	91.429	105	9	0	3	107	1	105	5.16e-70	198</p><p id="03693131-6d08-4abe-8a48-114c9e38d2f1" class="">
+</p><ul id="c6229078-4ff8-4a53-b49a-77abb8fc2954" class="to-do-list"><li><div class="checkbox checkbox-off"></div> <span class="to-do-children-unchecked">Дискретное раскрашивание дерева MftB</span></li></ul><p id="e081973d-331b-412d-b0fc-5e3c3441088d" class="">У каждой ноды есть подпись какие домены есть в окружении ее query</p><ul id="607137ff-10bb-4af3-bbeb-ce48f23a1e72" class="bulleted-list"><li style="list-style-type:disc">1 == минимальный кластер: MftA, MftB, MftC</li></ul><ul id="df9d4646-845c-4a6f-b1ca-38118bef1385" class="bulleted-list"><li style="list-style-type:disc">2 == минимальный кластер+регулятор транскрипции <mark class="highlight-blue">MftR</mark></li></ul><ul id="12ba2a91-dea8-4e46-a48a-d6e328be113a" class="bulleted-list"><li style="list-style-type:disc">3 == минимальный кластер+гликозилтрансфераза <mark class="highlight-orange">MftF</mark></li></ul><p id="9e70c110-e515-4731-9263-a97e7d47051c" class="">#4 == минимальный кластер+пептидаза MftE </p><p id="49c74414-75e6-4fa8-866f-439ce62ddd64" class="">НЕ НАШЛА MftE, сохраню нумерацию на случай если найду</p><ul id="d21bd426-4084-4545-ba13-6d52847f29b6" class="bulleted-list"><li style="list-style-type:disc">5 == минимальный кластер+регулятор транскрипции <mark class="highlight-blue">MftR</mark>, гликозилтрансфераза <mark class="highlight-orange">MftF</mark></li></ul><p id="009d6517-4893-4a81-8962-5c626c363767" class=""># 6 == минимальный кластер+регулятор транскрипции <mark class="highlight-blue">MftR,</mark> пептидаза MftE</p><p id="0c9ed2db-691d-4418-9836-df01e3409ae6" class="">#7 == минимальный кластер+гликозилтрансфераза MftF, пептидаза MftE</p><ul id="b1ac9528-7727-4c46-a863-9eba001bf082" class="bulleted-list"><li style="list-style-type:disc">8 == минимальный кластер+FMN оксидаза <mark class="highlight-teal">MftD</mark></li></ul><ul id="a8d0bd2f-c378-42b8-9580-e28ca5b8bde2" class="bulleted-list"><li style="list-style-type:disc">9 == минимальный кластер+дегидрогеназа <mark class="highlight-pink">Rv0697</mark></li></ul><ul id="0bf74654-55e9-4b0c-8271-9fec898e35a5" class="bulleted-list"><li style="list-style-type:disc">10 == минимальный кластер + <mark class="highlight-teal">MftD</mark>, <mark class="highlight-pink">Rv0697</mark></li></ul><ul id="ae3de0ed-f311-4637-be5e-6de9d86d0f00" class="bulleted-list"><li style="list-style-type:disc">11 == минимальный кластер +<mark class="highlight-teal"> MftD</mark>, <mark class="highlight-blue">MftR</mark></li></ul><ul id="e56f65b0-7580-41a6-b299-3005dee56129" class="bulleted-list"><li style="list-style-type:disc">12 == минимальный кластер + <mark class="highlight-teal">MftD</mark>, <mark class="highlight-orange">MftF</mark></li></ul><p id="0920c86a-cabb-475a-954c-53b208ff1c14" class="">#13 == минимальный кластер + MftD, MftE</p><ul id="04639d43-2269-4780-974f-47bbd98e214a" class="bulleted-list"><li style="list-style-type:disc">14 == минимальный кластер +<mark class="highlight-pink"> Rv0697</mark>, <mark class="highlight-blue">MftR</mark></li></ul><ul id="eebab228-e8a2-40c8-bb95-81b8cd53baf9" class="bulleted-list"><li style="list-style-type:disc">15 == минимальный кластер + <mark class="highlight-pink">Rv0697</mark>, <mark class="highlight-orange">MftF</mark></li></ul><p id="7e2ca77b-cd9e-45f8-abf8-72df44eb17b5" class="">#16 == минимальный кластер + <mark class="highlight-pink">Rv0697</mark>, MftE</p><ul id="c2f695d9-1fe8-4b10-9207-a0791f1ab121" class="bulleted-list"><li style="list-style-type:disc">17 == минимальный кластер + <mark class="highlight-teal">MftD</mark>, <mark class="highlight-pink">Rv0697</mark>, <mark class="highlight-blue">MftR</mark></li></ul><ul id="26afc185-c128-466c-baad-1587649223cd" class="bulleted-list"><li style="list-style-type:disc">18== минимальный кластер + <mark class="highlight-teal">MftD</mark>, <mark class="highlight-pink">Rv0697</mark>, <mark class="highlight-orange">MftF</mark></li></ul><p id="9f2d3b72-883a-40b3-80c4-b42fdc8b8b07" class="">#19 == минимальный кластер + MftD, Rv0697, MftE</p><p id="365a143b-41de-4d00-a0ed-63acf0effc9d" class="">#20 == == минимальный кластер + MftD, Rv0697, MftR, MftE</p><ul id="65a2a47b-2b7f-4151-882d-a5936bbd1d09" class="bulleted-list"><li style="list-style-type:disc">21 == минимальный кластер + <mark class="highlight-teal">MftD</mark>, <mark class="highlight-pink">Rv0697</mark>, <mark class="highlight-blue">MftR</mark>, <mark class="highlight-orange">MftF</mark></li></ul><p id="74c08f54-e533-43e6-bd93-7ddf0d5c6730" class="">#22 == == минимальный кластер + MftD, Rv0697, MftE, MftF</p><p id="bb080b92-ff84-40a8-90d8-c80eef9f9cd2" class="">#23 == минимальный кластер + MftD, Rv0697, MftE, MftF, <mark class="highlight-blue">MftR</mark></p><ul id="2f0bbb08-cc29-43bc-bbae-9ab194555dd1" class="bulleted-list"><li style="list-style-type:disc">24 == <mark class="highlight-teal">MftD</mark> and <mark class="highlight-orange">MftF</mark> and <mark class="highlight-blue">MftR</mark> and min</li></ul><ul id="e9e31f77-eada-48a1-b25f-d2680c5fd159" class="bulleted-list"><li style="list-style-type:disc">25== минимальный кластер + <mark class="highlight-blue">MftR</mark>, <mark class="highlight-pink">Rv0697</mark>, <mark class="highlight-orange">MftF</mark></li></ul><figure id="0e610183-4238-4977-891c-63400344814e" class="image"><a href="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled.png"><img style="width:394px" src="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled.png"/></a></figure><p id="272a90ca-4527-48c8-a853-0a9cabf305e6" class="">888 - наиболее близкий MftB к тому, по которому был Blast</p><p id="0a9652c8-dab8-4b83-88fe-111cbdde2141" class="">
+</p><hr id="1fd692f8-ccf8-4258-9cf1-895fc5f8a2a9"/><p id="62fe11dd-5cee-4038-b560-a4be5a21ab4b" class="">Фильтр сети по alignment _score:</p><ul id="f7eb4884-f140-49fd-a9ab-d991c35deadb" class="bulleted-list"><li style="list-style-type:disc">min == 10 ~ id == 30%</li></ul><p id="7cd27a5e-599c-4609-a709-983b10270149" class="">Выделяются три компоненты связности</p><figure id="b3a7e0a2-7183-4cb0-9bbd-c87ba7618c3f" class="image"><a href="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%201.png"><img style="width:938px" src="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%201.png"/></a></figure><p id="2ef1ccc7-498a-4936-89a8-a8b2a8eafeb3" class="">одна полностью на 3: минимальный кластер+гликозилтрансфераза <mark class="highlight-orange">MftF</mark>;  другая на 0 и на 3, третья в перемешку</p><ul id="0299594a-1757-49c9-bc28-b94ae4dd98df" class="bulleted-list"><li style="list-style-type:disc">20</li></ul><figure id="39d46ee6-5851-42e9-a614-d84faa0ab3b4" class="image"><a href="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%202.png"><img style="width:1269px" src="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%202.png"/></a></figure><p id="a95ab413-5308-4567-8aca-b240e93221e0" class="">выделяется компонента на 12: минимальный кластер + <mark class="highlight-teal">MftD</mark>, <mark class="highlight-orange">MftF</mark></p><ul id="f98ba853-91cf-4a68-a588-8281e99b512f" class="bulleted-list"><li style="list-style-type:disc">30</li></ul><figure id="5989da22-2b52-43c6-a720-5cb812350cb9" class="image"><a href="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%203.png"><img style="width:1843px" src="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%203.png"/></a></figure><p id="469f8c22-de40-4b63-967c-87f2a42cc5c7" class="">выделилась компонента на 24: MftD and MftF and MftR and min</p><p id="2872cc48-489e-48f4-ba3d-42f869f2328f" class="">в большом кластере выделяется ядро на 21: минимальный кластер + <mark class="highlight-teal">MftD</mark>, <mark class="highlight-pink">Rv0697</mark>, <mark class="highlight-blue">MftR</mark>, <mark class="highlight-orange">MftF</mark></p><ul id="338da37b-8fb0-4ff2-9714-34f149df874d" class="bulleted-list"><li style="list-style-type:disc">40</li></ul><p id="f4df773b-9649-481a-9450-fa0ba23f3152" class="">мешанина: тяжело выделить компоненту в которой бы приобладал какой-то один цвет, но такие все же есть, состоят из небольшого числа нод, находятся внизу картинки</p><figure id="7bdcf353-8d15-4c54-90bf-e9d04aa64059" class="image"><a href="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%204.png"><img style="width:1671px" src="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%204.png"/></a></figure><p id="bcbe0a97-38ba-4d0d-afe3-23c5ec9aa322" class="">
+ядро на 21 выделилось в отдельную кладу, в ней также присутствуют домены на 0</p><p id="3b934b5b-1bc6-49cc-9188-282b9851a6fe" class="">домены на 2: минимальный кластер+регулятор транскрипции <mark class="highlight-blue">MftR</mark></p><p id="aa2b0ef7-c50f-4ab3-b4a1-301054d90909" class="">часто находятся в компонентах вместе с доменами на 8: минимальный кластер+FMN оксидаза <mark class="highlight-teal">MftD</mark></p><p id="18ca2fdd-f355-4fbe-9262-83ece3d59e78" class="">и на 24</p><p id="05b5a00f-6731-412c-bcca-6592fe49503a" class="">выделилась компонента с большим alignment_score</p><figure id="7d1b69fa-0a75-4075-9d1c-fa61d71ef6e2" class="image"><a href="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%205.png"><img style="width:375px" src="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%205.png"/></a></figure><ul id="2b086ced-4cde-41ac-8561-98de31109244" class="bulleted-list"><li style="list-style-type:disc">50 </li></ul><figure id="b95e7e2f-43f7-4db4-9597-fed37c75b8f9" class="image"><a href="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%206.png"><img style="width:1806px" src="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%206.png"/></a></figure><p id="9bbad452-6ab5-488b-93fc-0d020b7ba346" class="">много компонент связности с преобладанием 21</p><p id="8ce6ccb8-db8b-4bf0-ae83-156ff8871199" class="">также есть отдельные компоненты с преобладанием 24</p><p id="df6d88fb-a6fe-4dcd-b32a-da4c2d1259d4" class="">в той же компоненте сильной связности много нод на 25: минимальный кластер + <mark class="highlight-blue">MftR</mark>, <mark class="highlight-pink">Rv0697</mark>, <mark class="highlight-orange">MftF</mark></p><p id="58dc6329-8b64-4a8b-8b2a-fe7f9350cb1a" class="">меньше на 15: минимальный кластер + <mark class="highlight-pink">Rv0697</mark>, <mark class="highlight-orange">MftF</mark></p><p id="fe06e3bd-943e-4afc-83a6-7da09a1542b9" class="">одинаковое кол-во на 12 и 24</p><figure id="1370a2f1-08a2-40cf-9f34-8b042605b15f" class="image"><a href="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%207.png"><img style="width:976px" src="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%207.png"/></a></figure><p id="7d93143d-caeb-4e5e-b515-ed4402104ce1" class="">черный(888) в паре с 21: </p><figure id="2b484911-4500-4a61-84a4-f4475845a221" class="image"><a href="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%208.png"><img style="width:195px" src="2022%2010%2025%20d201fd225ff44f56bc65495374ece937/Untitled%208.png"/></a></figure></div></article></body></html>
