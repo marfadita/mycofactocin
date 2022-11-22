@@ -16,6 +16,7 @@ The aim is to find unusual functional mycofactocin-like clusters by analyzing th
   * RODEO with MftB clusters
   * Flags2 analysis
   * The frequency of pairwise occurrence of domains in clusters is calculated
+  * Meme analysis of conserved positions in precursor (MftA)
 3. Results visualization
   * Cytoscape
   * RAxML tree
@@ -56,3 +57,14 @@ Discrete coloring:
 - 24 == MftABCDFR
 - 25 == MftABCRF, Rv0697
 - 888 == closest node
+
+## Conclusions
+According to the data obtained, mycofactocin clusters are very similar to each other. Prepared data  should be further investigated.
+
+## Literature
+* Anastasiia Kostenko, Yi Lien, Aigera Mendauletova, Thacien Ngendahimana, Ivan M. Novitskiy, Sandra S. Eaton, John A. Latham, 
+
+Identification of a poly-cyclopropylglycine–containing peptide via bioinformatic mapping of radical S-adenosylmethionine enzymes,
+
+Journal of Biological Chemistry,2022
+https://doi.org/10.1016/j.jbc.2022.101881.
