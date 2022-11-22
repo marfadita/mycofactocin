@@ -8,11 +8,10 @@ Mycofactocin has been proposed to be a new member of the peptide-derived redox c
 ## Aim and objectives
 The aim is to find unusual functional mycofactocin-like clusters by analyzing the data and prepare the data for further gene research.
 The following objectives were set in order to achive the goal:
-\begin{zitemize}
-\item Data preparation
+\begin{itemize}
+1. Data preparation
 * PSI-BLAST with known MftB(RRE protein) sequences as queries
 * Manual deletion of false positive results
 * mmseq2 clusterisation
-\item Cluster assemblying
-* Identify biosynthetic gene clusters via RODEO with MftB clusters
-\end{zitemize}
+2. Identify biosynthetic gene clusters via RODEO with MftB clusters
+
