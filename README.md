@@ -20,4 +20,4 @@ The aim is to find unusual functional mycofactocin-like clusters by analyzing th
   * RAxML tree
 
 ## Results
-![alt text](https://github.com/marfadita/mycofactocin/blob/main/mftbtree_mftb_with_pqqD/RAxML_tree_mftb_id60_pqqD.svg)?raw=true)
+![MftB tree with rooting through the outgroup PqqD](https://github.com/marfadita/mycofactocin/blob/main/mftbtree_mftb_with_pqqD/RAxML_tree_mftb_id60_pqqD.svg))
