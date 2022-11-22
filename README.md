@@ -10,8 +10,13 @@ The aim is to find unusual functional mycofactocin-like clusters by analyzing th
 The following objectives were set in order to achive the goal:
 \begin{itemize}
 1. Data preparation
-* PSI-BLAST with known MftB(RRE protein) sequences as queries
-* Manual deletion of false positive results
-* mmseq2 clusterisation
-2. Identify biosynthetic gene clusters via RODEO with MftB clusters
+  * PSI-BLAST with known MftB(RRE protein) sequences as queries
+  * Manual deletion of false positive results
+  * mmseq2 clusterisation
+2. Identify biosynthetic gene clusters
+  * RODEO with MftB clusters
+  * Flags2 analysis
+3. Results visualization
+  * Cytoscape
+  * RAxML tree
 
