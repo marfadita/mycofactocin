@@ -35,8 +35,8 @@ blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/
 ```
 
 Discrete coloring:
-![image](https://user-images.githubusercontent.com/98456969/203299777-cb63b35d-53ac-4e87-ba5a-2db067e4a6f7.png =250x250)
-![image](https://user-images.githubusercontent.com/98456969/203299880-b90944a6-6e9e-4887-8b5e-5a221c8de242.png | width=100)
+![image](https://user-images.githubusercontent.com/98456969/203299777-cb63b35d-53ac-4e87-ba5a-2db067e4a6f7.png)
+![image](https://user-images.githubusercontent.com/98456969/203300573-8d4bfae7-8107-49b9-9002-2fac750e55c2.png)
 
 - 1 == min cluster: MftA, MftB, MftC
 - 2 == MftABC + MftR
