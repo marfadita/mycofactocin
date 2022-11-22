@@ -62,9 +62,6 @@ Discrete coloring:
 According to the data obtained, mycofactocin clusters are very similar to each other. Prepared data  should be further investigated.
 
 ## Literature
-* Anastasiia Kostenko, Yi Lien, Aigera Mendauletova, Thacien Ngendahimana, Ivan M. Novitskiy, Sandra S. Eaton, John A. Latham, 
-
-Identification of a poly-cyclopropylglycine–containing peptide via bioinformatic mapping of radical S-adenosylmethionine enzymes,
-
-Journal of Biological Chemistry,2022
-https://doi.org/10.1016/j.jbc.2022.101881.
+* Kostenko A, Lien Y, Mendauletova A, Ngendahimana T, Novitskiy IM, Eaton SS, Latham JA. Identification of a poly-cyclopropylglycine-containing peptide via bioinformatic mapping of radical S-adenosylmethionine enzymes. J Biol Chem. 2022 May;298(5):101881. doi: 10.1016/j.jbc.2022.101881. Epub 2022 Mar 31. PMID: 35367210; PMCID: PMC9062424
+* Haft DH. Bioinformatic evidence for a widely distributed, ribosomally produced electron carrier precursor, its maturation proteins, and its nicotinoprotein redox partners. BMC Genomics. 2011 Jan 11;12:21. doi: 10.1186/1471-2164-12-21. PMID: 21223593; PMCID: PMC3023750
+* Ayikpoe RS, Latham JA. MftD Catalyzes the Formation of a Biologically Active Redox Center in the Biosynthesis of the Ribosomally Synthesized and Post-translationally Modified Redox Cofactor Mycofactocin. J Am Chem Soc. 2019 Aug 28;141(34):13582-13591. doi: 10.1021/jacs.9b06102. Epub 2019 Aug 15. PMID: 31381312; PMCID: PMC6716157.
