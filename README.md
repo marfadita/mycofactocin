@@ -13,9 +13,9 @@ The aim is to find unusual functional mycofactocin-like clusters by analyzing th
   * Manual deletion of false positive results
   * mmseqs2 clusterisation
 2. Identify biosynthetic gene clusters
-  * RODEO with MftB clusters
+  * RODEO
   * Flags2 analysis
-  * The frequency of pairwise occurrence of domains in clusters is calculated
+  * Calculating the frequency of pairwise occurrence of domains in clusters
   * Meme analysis of conserved positions in precursor (MftA)
 3. Results visualization
   * Cytoscape
