@@ -16,7 +16,7 @@ The aim is to find unusual functional mycofactocin-like clusters by analyzing th
   * RODEO
   * Flags2 analysis
   * Calculating the frequency of pairwise occurrence of domains in clusters
-  * Meme analysis of conserved positions in precursor (MftA)
+  * MEME analysis of conserved positions in precursor (MftA)
 3. Results visualization
   * Cytoscape
   * RAxML tree
