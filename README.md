@@ -20,8 +20,13 @@ The aim is to find unusual functional mycofactocin-like clusters by analyzing th
   * RAxML tree
 
 ## Results
+* Tree
 ![alt text](https://github.com/marfadita/mycofactocin/blob/main/mftbtree_mftb_with_pqqD/RAxML_mftb_tree_with_pqqD_id60.svg?raw=true)
 MftB tree with rooting through the outgroup PqqD. The colors show the presence of certain genes in the cluster, the comments are signed by the organism of origin
 ![image](https://user-images.githubusercontent.com/98456969/203294392-469475ef-b9e6-45b2-8669-71683834369e.png)
 
-
+* Cytoscape
+The network is built by issuing EFI EST by fasta of the MftB file. I found the node closest to the original sequence in which the search began
+```
+blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_db -out /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_res.tbl -outfmt 
+```
