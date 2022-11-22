@@ -11,10 +11,11 @@ The aim is to find unusual functional mycofactocin-like clusters by analyzing th
 1. Data preparation
   * PSI-BLAST with known MftB(RRE protein) sequences as queries
   * Manual deletion of false positive results
-  * mmseq2 clusterisation
+  * mmseqs2 clusterisation
 2. Identify biosynthetic gene clusters
   * RODEO with MftB clusters
   * Flags2 analysis
+  * The frequency of pairwise occurrence of domains in clusters is calculated
 3. Results visualization
   * Cytoscape
   * RAxML tree
@@ -26,7 +27,7 @@ MftB tree with rooting through the outgroup PqqD. The colors show the presence o
 ![image](https://user-images.githubusercontent.com/98456969/203294392-469475ef-b9e6-45b2-8669-71683834369e.png)
 
 * Cytoscape
-The network is built by issuing EFI EST by fasta of the MftB file. I found the node closest to the original sequence in which the search began
+The network is built by issuing EFI EST by fasta of the MftB file. Firstly, found the node closest to the original sequence in which the search began
 ```
 blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_db -out /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_res.tbl -outfmt 
 ```
@@ -54,3 +55,4 @@ Discrete coloring:
 - 21 == MftABCDFR, Rv0697
 - 24 == MftABCDFR
 - 25 == MftABCRF, Rv0697
+- 888 == closest node
