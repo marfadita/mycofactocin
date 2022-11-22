@@ -30,3 +30,27 @@ The network is built by issuing EFI EST by fasta of the MftB file. I found the n
 ```
 blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_db -out /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_res.tbl -outfmt 
 ```
+```
+blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_db -out /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_res.tbl -outfmt 6
+```
+
+Discrete coloring:
+![image](https://user-images.githubusercontent.com/98456969/203299777-cb63b35d-53ac-4e87-ba5a-2db067e4a6f7.png)
+![image](https://user-images.githubusercontent.com/98456969/203299880-b90944a6-6e9e-4887-8b5e-5a221c8de242.png)
+
+- 1 == min cluster: MftA, MftB, MftC
+- 2 == MftABC + MftR
+- 3 == MftABC + MftF
+- 5 == MftABCRF
+- 8 == MftABC + MftD
+- 9 == MftABC + Rv0697
+- 10 == MftABCD, Rv0697
+- 11 == MftABCDR
+- 12 == MftABCDF
+- 14 == MftABCR, Rv0697
+- 15 == MftABCF, Rv0697
+- 17 == MftABCDR, Rv0697
+- 18 == MftABCDF, Rv0697
+- 21 == MftABCDFR, Rv0697
+- 24 == MftABCDFR
+- 25 == MftABCRF, Rv0697
