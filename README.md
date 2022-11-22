@@ -9,7 +9,7 @@ Mycofactocin has been proposed to be a new member of the peptide-derived redox c
 The aim is to find unusual functional mycofactocin-like clusters by analyzing the data and prepare the data for further gene research.
 ## Workflow
 1. Data preparation
-  * PSI-BLAST with known MftB(RRE protein) sequences as queries
+  * PSI-BLAST with known MftB(RRE protein) sequence as query
   * Manual deletion of false positive results
   * mmseqs2 clusterisation
 2. Identify biosynthetic gene clusters
