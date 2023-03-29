@@ -37,8 +37,8 @@ blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/
 ```
 
 Discrete coloring:
-![image](https://user-images.githubusercontent.com/98456969/203299777-cb63b35d-53ac-4e87-ba5a-2db067e4a6f7.png)
-![image](https://user-images.githubusercontent.com/98456969/203300573-8d4bfae7-8107-49b9-9002-2fac750e55c2.png)
+![image](https://user-images.githubusercontent.com/98456969/203299777-cb63b35d-53ac-4e87-ba5a-2db067e4a6f7.png=250x250)
+![image](https://user-images.githubusercontent.com/98456969/203300573-8d4bfae7-8107-49b9-9002-2fac750e55c2.png=250x250)
 
 - 1 == min cluster: MftA, MftB, MftC
 - 2 == MftABC + MftR
@@ -59,7 +59,7 @@ Discrete coloring:
 - 888 == closest node
 
 ## Conclusions
-According to the data obtained, mycofactocin clusters are very similar to each other. Prepared data  should be further investigated.
+According to the data obtained, mycofactocin clusters have a small variety.All the occurring diversity of the mft cluster is described in the literature. Mycofactocin is a cofactor, so there is no such selection in favor of diversity as in antibiotics
 
 ## Literature
 * Kostenko A, Lien Y, Mendauletova A, Ngendahimana T, Novitskiy IM, Eaton SS, Latham JA. Identification of a poly-cyclopropylglycine-containing peptide via bioinformatic mapping of radical S-adenosylmethionine enzymes. J Biol Chem. 2022 May;298(5):101881. doi: 10.1016/j.jbc.2022.101881. Epub 2022 Mar 31. PMID: 35367210; PMCID: PMC9062424
