@@ -47,7 +47,9 @@ blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/
 </p>
 
 ## Conclusions
-According to the data obtained, mycofactocin clusters have a small variety.All the occurring diversity of the mft cluster is described in the literature. Mycofactocin is a cofactor, so there is no such selection in favor of diversity as in antibiotics
+According to the data obtained, mycofactocin clusters have a small variety. <br>
+All the occurring diversity of the mft cluster is described in the literature. <br>
+Mycofactocin is a cofactor, so there is no such selection in favor of diversity as in antibiotics
 
 ## Literature
 * Kostenko A, Lien Y, Mendauletova A, Ngendahimana T, Novitskiy IM, Eaton SS, Latham JA. Identification of a poly-cyclopropylglycine-containing peptide via bioinformatic mapping of radical S-adenosylmethionine enzymes. J Biol Chem. 2022 May;298(5):101881. doi: 10.1016/j.jbc.2022.101881. Epub 2022 Mar 31. PMID: 35367210; PMCID: PMC9062424
