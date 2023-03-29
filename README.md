@@ -37,7 +37,14 @@ blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/
 ```
 
  <h1 align="center">Pairwise occurrence of domains within the genomic region</h1>
-<img src="https://user-images.githubusercontent.com/98456969/228648998-3797ffcc-462e-42c2-be8b-fba6ebb938be.png" width = 700>
+ <p align="center">
+    <img src="https://user-images.githubusercontent.com/98456969/228648998-3797ffcc-462e-42c2-be8b-fba6ebb938be.png" width = 700>
+ </p>
+ 
+ <h1 align="center">MftB Sequence Similarity Network</h1>
+ <p align="center">
+     <img src= "https://user-images.githubusercontent.com/98456969/228655987-b0c3bb8e-46aa-47d8-aa4d-1a08f5f114c6.png" width = 700>
+</p>
 
 ## Conclusions
 According to the data obtained, mycofactocin clusters have a small variety.All the occurring diversity of the mft cluster is described in the literature. Mycofactocin is a cofactor, so there is no such selection in favor of diversity as in antibiotics
