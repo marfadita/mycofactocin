@@ -37,26 +37,7 @@ blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/
 ```
 
 <center>Pairwise occurrence of domains within the genomic region
-<img src="https://user-images.githubusercontent.com/98456969/203299777-cb63b35d-53ac-4e87-ba5a-2db067e4a6f7.png" width="700" height="500">
-<img src="https://user-images.githubusercontent.com/98456969/228648769-d0a45c3f-1d18-4425-a9c6-4073608f0372.png" width="500" height="500">
-
-- 1 == min cluster: MftA, MftB, MftC
-- 2 == MftABC + MftR
-- 3 == MftABC + MftF
-- 5 == MftABCRF
-- 8 == MftABC + MftD
-- 9 == MftABC + Rv0697
-- 10 == MftABCD, Rv0697
-- 11 == MftABCDR
-- 12 == MftABCDF
-- 14 == MftABCR, Rv0697
-- 15 == MftABCF, Rv0697
-- 17 == MftABCDR, Rv0697
-- 18 == MftABCDF, Rv0697
-- 21 == MftABCDFR, Rv0697
-- 24 == MftABCDFR
-- 25 == MftABCRF, Rv0697
-- 888 == closest node
+<img src="https://user-images.githubusercontent.com/98456969/228648998-3797ffcc-462e-42c2-be8b-fba6ebb938be.png">
 
 ## Conclusions
 According to the data obtained, mycofactocin clusters have a small variety.All the occurring diversity of the mft cluster is described in the literature. Mycofactocin is a cofactor, so there is no such selection in favor of diversity as in antibiotics
