@@ -36,9 +36,9 @@ blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/
 blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_db -out /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_res.tbl -outfmt 6
 ```
 
-Discrete coloring:
+<center>Pairwise occurrence of domains within the genomic region
 <img src="https://user-images.githubusercontent.com/98456969/203299777-cb63b35d-53ac-4e87-ba5a-2db067e4a6f7.png" width="700" height="500">
-<img src="https://user-images.githubusercontent.com/98456969/203300573-8d4bfae7-8107-49b9-9002-2fac750e55c2.png" width="500" height="500">
+<img src="https://user-images.githubusercontent.com/98456969/228648769-d0a45c3f-1d18-4425-a9c6-4073608f0372.png" width="500" height="500">
 
 - 1 == min cluster: MftA, MftB, MftC
 - 2 == MftABC + MftR
