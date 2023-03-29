@@ -36,7 +36,7 @@ blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/
 blastp -query /home/marfa/Desktop/lab/mycofactocin/mftb/mftb.fa -db /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_db -out /home/marfa/Desktop/lab/mycofactocin/mftb/cluster_res/mftb_seq_id_for_blast_res.tbl -outfmt 6
 ```
 
-<center>Pairwise occurrence of domains within the genomic region
+ <h1 align="center">**Pairwise occurrence of domains within the genomic region**</h1>
 <img src="https://user-images.githubusercontent.com/98456969/228648998-3797ffcc-462e-42c2-be8b-fba6ebb938be.png">
 
 ## Conclusions
